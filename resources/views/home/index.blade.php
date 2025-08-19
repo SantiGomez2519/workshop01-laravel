@@ -29,7 +29,7 @@
       <h2 class="text-center mb-5">Características del Sistema</h2>
 
       <div class="row">
-        <div class="col-md-4 mb-4">
+        <div class="col-md-6 mb-4">
           <div class="feature-card">
             <div class="feature-icon">
               <i class="fas fa-user-plus"></i>
@@ -40,7 +40,7 @@
           </div>
         </div>
 
-        <div class="col-md-4 mb-4">
+        <div class="col-md-6 mb-4">
           <div class="feature-card">
             <div class="feature-icon">
               <i class="fas fa-list"></i>
@@ -48,17 +48,6 @@
             <h4>Listar Usuarios</h4>
             <p class="text-muted">Visualiza todos los usuarios registrados con navegación fácil y rápida.</p>
             <a href="{{ route('custom-users.list') }}" class="btn btn-custom">Ver Lista</a>
-          </div>
-        </div>
-
-        <div class="col-md-4 mb-4">
-          <div class="feature-card">
-            <div class="feature-icon">
-              <i class="fas fa-eye"></i>
-            </div>
-            <h4>Ver Detalles</h4>
-            <p class="text-muted">Accede a información completa de cada usuario con opciones de gestión.</p>
-            <a href="{{ route('custom-users.list') }}" class="btn btn-custom">Explorar</a>
           </div>
         </div>
       </div>
